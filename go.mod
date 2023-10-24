@@ -1,4 +1,4 @@
-module github.com/vladComan0/readinglist
+module github.com/vladComan0/go-readinglist
 
 go 1.21.2
 

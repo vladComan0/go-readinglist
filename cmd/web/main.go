@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/vladComan0/readinglist/internal/models"
+	"github.com/vladComan0/go-readinglist/internal/models"
 )
 
 type application struct {

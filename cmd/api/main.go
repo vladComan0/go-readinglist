@@ -10,7 +10,7 @@ import (
 	"time"
 
 	_ "github.com/lib/pq"
-	"github.com/vladComan0/readinglist/internal/data"
+	"github.com/vladComan0/go-readinglist/internal/data"
 )
 
 const version = "1.0.0"
