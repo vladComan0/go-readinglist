@@ -35,7 +35,7 @@ func main() {
 	flag.StringVar(&cfg.dsn, "dsn", os.Getenv("READINGLIST_DB_DSN"), "PostgreSQL DSN")
 	flag.Parse()
 
-	cfg.dsn = "postgres://postgres:pass1234@localhost/readinglist?sslmode=disable"
+	//cfg.dsn = "postgres://readinglist:changeme@localhost/readinglist?sslmode=disable"
 
 	logger := log.New(os.Stdout, "", log.Ldate|log.Ltime)
 
